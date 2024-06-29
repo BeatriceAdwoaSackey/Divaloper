@@ -1,0 +1,14 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 50px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+.grid-item{
+width: 200px;
+height: 198px;
+border: 3px solid blueviolet;
+background-color: rgb(218, 172, 210);
+}
